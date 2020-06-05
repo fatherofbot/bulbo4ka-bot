@@ -16,7 +16,7 @@ def helpCommand(bot, update):
 
 
 def textMessage(bot, update):
-    request = apiai.ApiAI('bcb7567f6c2b415a9ed95496a3ea8b0b').text_request() # Dialogflow api token
+    request = apiai.ApiAI('').text_request() # Dialogflow api token
     request.lang = 'ru' # На каком языке будет послан запрос
     request.session_id = 'bulbo4kabot' # ID сессии диалога (нужно чтобы потом учить бота)
     request.query = update.message.text # Посылаем запрос к ИИ с обращением от юзера
