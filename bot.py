@@ -31,7 +31,7 @@ def textMessage(bot, update):
 
 # Хендлеры
 start_command_handler = CommandHandler('start', startCommand)
-help_command_handker = CommandHandler('help', helpCommand)
+help_command_handler = CommandHandler('help', helpCommand)
 text_message_handler = MessageHandler(Filters.text, textMessage)
 # Добавляем хендлеры в диспетчер
 dispatcher.add_handler(start_command_handler)
