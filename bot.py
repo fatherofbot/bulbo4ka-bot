@@ -2,7 +2,7 @@
 # Configuration
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import apiai, json
-updater = Updater(token="1175886749:AAHN9XekkSA4JaPrX_kMsLPE1TmWfCSisXM")
+updater = Updater(token="")
 dispatcher = updater.dispatcher
 
 
